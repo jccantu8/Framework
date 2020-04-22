@@ -1,0 +1,532 @@
+/* Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+
+	font-weight: normal;
+	font-size: 12px;
+	font-style: normal;
+	font-family: sans-serif;
+	color: black;
+	line-height: normal;
+	list-style-type: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+  width: 100%;
+}
+
+/********/
+
+.container {
+	display: block;
+	width: auto;
+	margin: auto;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+/* Flex */
+
+.flex {
+	display: flex;
+}
+
+.flex-d-r {
+	flex-direction: row;
+}
+
+.flex-d-rr {
+	flex-direction: row-reverse;
+}
+
+.flex-d-c {
+	flex-direction: column;
+}
+
+.flex-d-cr {
+	flex-direction: column-reverse;
+}
+
+.flex-w-none {
+	flex-wrap: nowrap;
+}
+
+.flex-w-w {
+	flex-wrap: wrap;
+}
+
+.flex-w-wr {
+	flex-wrap: wrap-reverse;
+}
+
+.flex-ai-s {
+	align-items: stretch;
+}
+
+.flex-ai-fs {
+	align-items: flex-start;
+}
+
+.flex-ai-fe {
+	align-items: flex-end;
+}
+
+.flex-ai-c {
+	align-items: center;
+}
+
+.flex-ai-b {
+	align-items: baseline;
+}
+
+.flex-ac-s {
+	align-content: stretch;
+}
+
+.flex-ac-fs {
+	align-content: flex-start;
+}
+
+.flex-ac-fe {
+	align-content: flex-end;
+}
+
+.flex-ac-c {
+	align-content: center;
+}
+
+.flex-ac-sa {
+	align-content: space-around;
+}
+
+.flex-ac-sb {
+	align-content: space-between;
+}
+
+.flex-ac-se {
+	align-content: space-evenly;
+}
+
+.flex-jc-s {
+	justify-content: stretch;
+}
+
+.flex-jc-fs {
+	justify-content: flex-start;
+}
+
+.flex-jc-fe {
+	justify-content: flex-end;
+}
+
+.flex-jc-c {
+	justify-content: center;
+}
+
+.flex-jc-sa {
+	justify-content: space-around;
+}
+
+.flex-jc-sb {
+	justify-content: space-between;
+}
+
+.flex-jc-se {
+	justify-content: space-evenly;
+}
+
+/* Columns */
+
+/* This will automatically expand to the end of the grid (grid 12),
+	but only seems to work in chrome */
+.col-auto {
+	display: flex;
+	flex-direction: column;
+	grid-column-start: span 1000;
+}
+
+.col-1 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 1;
+}
+
+.col-2 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 2;
+}
+
+.col-3 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 3;
+}
+
+.col-4 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 4;
+}
+
+.col-5 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 5;
+}
+
+.col-6 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 6;
+}
+
+.col-7 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 7;
+}
+
+.col-8 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 8;
+}
+
+.col-9 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 9;
+}
+
+.col-10 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 10;
+}
+
+.col-11 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 11;
+}
+
+.col-12 {
+	display: flex;
+	flex-direction: column;
+	grid-column: span 12;
+}
+
+/* Margins */
+
+.mg-huge {
+	margin: 35%;
+}
+
+.mg-huge-left {
+	margin-left: 35%;
+}
+
+.mg-huge-right {
+	margin-right: 35%;
+}
+
+.mg-huge-top {
+	margin-top: 35%;
+}
+
+.mg-huge-bottom {
+	margin-bottom: 35%;
+}
+
+.mg-big {
+	margin: 25%;
+}
+
+.mg-big-left {
+	margin-left: 25%;
+}
+
+.mg-big-right {
+	margin-right: 25%;
+}
+
+.mg-big-top {
+	margin-top: 25%;
+}
+
+.mg-big-bottom {
+	margin-bottom: 25%;
+}
+
+.mg-med {
+	margin: 15%;
+}
+
+.mg-med-left {
+	margin-left: 15%;
+}
+
+.mg-med-right {
+	margin-right: 15%;
+}
+
+.mg-med-top {
+	margin-top: 15%;
+}
+
+.mg-med-bottom {
+	margin-bottom: 15%;
+}
+
+.mg-sml {
+	margin: 5%;
+}
+
+.mg-sml-left {
+	margin-left: 5%;
+}
+
+.mg-sml-right {
+	margin-right: 5%;
+}
+
+.mg-sml-top {
+	margin-top: 5%;
+}
+
+.mg-sml-bottom {
+	margin-bottom: 5%;
+}
+
+.mg-tiny {
+	margin: 2%;
+}
+
+.mg-tiny-left {
+	margin-left: 2%;
+}
+
+.mg-tiny-right {
+	margin-right: 2%;
+}
+
+.mg-tiny-top {
+	margin-top: 2%;
+}
+
+.mg-tiny-bottom {
+	margin-bottom: 2%;
+}
+
+/* Paddings */
+
+.pd-huge {
+	padding: 35%;
+}
+
+.pd-huge-left {
+	padding-left: 35%;
+}
+
+.pd-huge-right {
+	padding-right: 35%;
+}
+
+.pd-huge-top {
+	padding-top: 35%;
+}
+
+.pd-huge-bottom {
+	padding-bottom: 35%;
+}
+
+.pd-big {
+	padding: 25%;
+}
+
+.pd-big-left {
+	padding-left: 25%;
+}
+
+.pd-big-right {
+	padding-right: 25%;
+}
+
+.pd-big-top {
+	padding-top: 25%;
+}
+
+.pd-big-bottom {
+	padding-bottom: 25%;
+}
+
+.pd-med {
+	padding: 15%;
+}
+
+.pd-med-left {
+	padding-left: 15%;
+}
+
+.pd-med-right {
+	padding-right: 15%;
+}
+
+.pd-med-top {
+	padding-top: 15%;
+}
+
+.pd-med-bottom {
+	padding-bottom: 15%;
+}
+
+.pd-sml {
+	padding: 5%;
+}
+
+.pd-sml-left {
+	padding-left: 5%;
+}
+
+.pd-sml-right {
+	padding-right: 5%;
+}
+
+.pd-sml-top {
+	padding-top: 5%;
+}
+
+.pd-sml-bottom {
+	padding-bottom: 5%;
+}
+
+.pd-tiny {
+	padding: 2%;
+}
+
+.pd-tiny-left {
+	padding-left: 2%;
+}
+
+.pd-tiny-right {
+	padding-right: 2%;
+}
+
+.pd-tiny-top {
+	padding-top: 2%;
+}
+
+.pd-tiny-bottom {
+	padding-bottom: 2%;
+}
+
+/* Lists */
+
+/* add this to each li for a horizontal list; vertical list is the default */
+.list-h {
+	display: block;
+	float: left;
+}
+
+/* Buttons */
+
+.button {
+	border: none;
+  	border-radius: 5px;
+  	padding: 10px 40px;
+}
+
+.button:hover {
+	cursor:pointer;
+}
+
+/* Images */
+
+/* Fills up parent container but maintains aspect ratio */
+.pic-scale {
+	width: 100%;
+	height: auto;
+}
+
+/* Headings */
+
+h1 {
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size: 2.66rem;
+	font-weight: bolder;
+}
+
+h3 {
+	font-size: 2.33rem;
+	font-weight: bolder;
+}
+
+h4 {
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+h5 {
+	font-size: 1.66rem;
+	font-weight: bolder;
+}
+
+h6 {
+	font-size: 1.33rem;
+	font-weight: bolder;
+}
+
+/* Responsiveness */
+
+/* Currently only supports responding to widths of 768 and 1024 pixels.*/
+/* In order to use this, add responsive to all elements in a container */
+/* that you wish to be responsive. Next, add respond-768, respond-1024 */
+/* and/or respond-bigger-than-1024 to the elements you wish to show at */
+/* at these widths. See examples in the sample page, odinpage.html */
+
+.respond-768, .respond-1024 {
+	display: none;
+}
+
+@media screen and (min-width: 1025px) {
+	.respond-bigger-than-1024 {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.responsive {
+		display: none;
+	}
+
+	.respond-1024 {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.responsive {
+		display: none;
+	}
+
+	.respond-768 {
+		display: block;
+	}
+}

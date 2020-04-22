@@ -1,0 +1,189 @@
+h2 {
+	color: #4a4a4a;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+h3 {
+	color: #4a4a4a;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+p {
+	color: rgba(74,74,74,0.7);
+	font-size: 18px;
+	letter-spacing: 0.2px;
+	line-height: 1.88;
+}
+
+header .navibar a {
+	color: rgba(74,74,74,0.7);
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+header .navibar a:hover {
+	color: black;
+}
+
+header .dropdown {
+	position: relative;
+  	display: inline-block;
+}
+
+header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+header .dropdown-content ul li a {
+	font-size: 16px;
+	color: #cc9543;
+	line-height: 2em;
+}
+
+header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header img {
+	max-width: 265px;
+}
+
+main .career-message {
+	font-size: 36px;
+	color: #ce973e;
+	text-align: center;
+}
+
+main .display-message {
+	text-align: center;
+}
+
+main .button.curriculum {
+  background-color: #6abfc3;
+  box-shadow: 0px 1px 5px black;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 16px 56px;
+}
+
+main .button:hover {
+	opacity: .7;
+}
+
+main .explanation .title {
+	text-align: center;
+}
+
+main .explanation .details {
+	text-align: center;
+}
+
+main .explanation .images {
+	align-items: end;
+}
+
+main .explanation .info {
+	text-align: center;
+}
+
+main .languages {
+	background-color: #f3f3f3;
+	text-align: center;
+}
+
+main .language {
+	background-color: white;
+}
+
+main .button.started {
+	font-size: 16px;
+	font-weight: bolder;
+	color: white;
+	background-color: #cc9543;
+	padding: 16px 56px;
+}
+
+main .stories {
+	text-align: left;
+	background-image: linear-gradient(white, lightgrey);
+}
+
+main .stories .title {
+	text-align: center;
+}
+
+main .stories img {
+	margin: auto;
+	margin-top: 0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+main .stories h4 a:link {
+	text-decoration: none;
+	color: #ce973e;
+	font-size: 18px;
+}
+
+main .stories h4 a:hover {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+main .stories .read-more a:link {
+	text-decoration: underline;
+	color: rgba(74,74,74,0.7);
+	font-size: 16px;
+}
+
+main .stories .read-more a:hover {
+	text-decoration: underline;
+	color: black;
+	font-size: 16px;
+}
+
+main .stories .start-learning {
+	text-align: center;
+	color: rgba(74,74,74,0.7);
+	font-size: 36px;
+}
+
+main .stories .extra-info {
+	text-align: center;
+}
+
+main .button.sign-up {
+	background-color: #6abfc3;
+	box-shadow: 0px 1px 5px black;
+	color: white;
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 16px 56px;
+}
+
+footer .navibar ul {
+	text-align: center;
+}
+
+footer .navibar a {
+	color: rgba(74,74,74,0.7);
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+footer .navibar a:hover {
+	color: black;
+}
