@@ -1,4 +1,4 @@
-Exercise from [the Odin Project](theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework?ref=lnav) where the task was to create a framework and use
+Exercise from [the Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework?ref=lnav) where the task was to create a framework and use
 it to recreate a page on the web.
 
 The framework is based on a 12 column grid system and includes basic functionality,
