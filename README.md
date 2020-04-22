@@ -4,14 +4,14 @@ it to recreate a page on the web.
 The framework is based on a 12 column grid system and includes basic functionality,
 such as:
 
--Margins (tiny, small, medium, big, and huge)
--Padding (tiny, small, medium, big, and huge)
--Horizontal list
--Default button
--Image that scales to the parent container
--Responsive media queries
--Simple reset
--Flex options
+- Margins (tiny, small, medium, big, and huge)
+- Padding (tiny, small, medium, big, and huge)
+- Horizontal list
+- Default button
+- Image that scales to the parent container
+- Responsive media queries
+- Simple reset
+- Flex options
 
 The grid works as follows. First, create a container class followed by a row
 class in a similar vein to Bootstrap. Next, fill up the row with elements
